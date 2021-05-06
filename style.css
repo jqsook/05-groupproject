@@ -1,6 +1,20 @@
+<<<<<<< HEAD
 * {
   outline: solid 1px red;
 }
+=======
+:root{
+  --mailing: #360b6a;
+  --mailing-words: #fff;
+  --mailing-button: #33f1b7;
+  --culture-button: #8a43b7;
+  --movies-button: #1a8247;
+  --bg-light-gray: #e9eff3;
+  --games-button: #49edda;
+  --background-header: #222222;
+}
+
+>>>>>>> cf647d487310c12514c239d8ec25893eb6fa2dcc
 body {
   background-color: whitesmoke;
   border: 0;
@@ -55,7 +69,57 @@ body {
   height: 100px;
   margin-bottom: 10px;
 }
+<<<<<<< HEAD
 .cta-box {
   position: absolute;
   top: 0;
 } */
+=======
+
+/* *{
+  outline: 1px solid red;
+} */
+
+.geek-card{
+  height: 75%;
+  width: 60%;
+  object-fit: cover;
+}
+
+.mailing{
+  background-color: var(--mailing);
+}
+
+.theme-words{
+  color: var(--mailing-words);
+}
+
+.mailing-button{
+  background-color: var(--mailing-button);
+}
+
+.culture-button{
+  background-color: var(--culture-button);
+}
+
+.movies-button{
+  background-color: var(--movies-button);
+}
+
+.theme-bg-g{
+  background-color: var(--bg-light-gray);
+}
+
+.games-button{
+  background-color: var(--games-button);
+}
+
+.position-column{
+  position: absolute;
+  right: 1%;
+}
+
+.bg-head-foot{
+  background-color: var(--background-header);
+}
+>>>>>>> cf647d487310c12514c239d8ec25893eb6fa2dcc
