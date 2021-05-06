@@ -6,6 +6,7 @@
   --movies-button: #1a8247;
   --bg-light-gray: #e9eff3;
   --games-button: #49edda;
+  --background-header: #222222;
 }
 
 body {
@@ -53,4 +54,8 @@ body {
 .position-column{
   position: absolute;
   right: 1%;
+}
+
+.bg-head-foot{
+  background-color: var(--background-header);
 }
