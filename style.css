@@ -1,9 +1,55 @@
+:root{
+  --mailing: #360b6a;
+  --mailing-words: #fff;
+  --mailing-button: #33f1b7;
+  --culture-button: #8a43b7;
+  --movies-button: #1a8247;
+  --bg-light-gray: #e9eff3;
+  --games-button: #49edda;
+}
+
 body {
   background-color: whitesmoke;
 }
 
+/* *{
+  outline: 1px solid red;
+} */
 
 .geek-card{
   height: 25%;
   width: 25%;
+}
+
+.mailing{
+  background-color: var(--mailing);
+}
+
+.theme-words{
+  color: var(--mailing-words);
+}
+
+.mailing-button{
+  background-color: var(--mailing-button);
+}
+
+.culture-button{
+  background-color: var(--culture-button);
+}
+
+.movies-button{
+  background-color: var(--movies-button);
+}
+
+.theme-bg-g{
+  background-color: var(--bg-light-gray);
+}
+
+.games-button{
+  background-color: var(--games-button);
+}
+
+.position-column{
+  position: absolute;
+  right: 1%;
 }
