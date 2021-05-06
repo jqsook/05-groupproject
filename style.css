@@ -1,3 +1,61 @@
+* {
+  outline: solid 1px red;
+}
 body {
   background-color: whitesmoke;
+  border: 0;
 }
+.top-img {
+  border: 0;
+  padding: 0;
+}
+.top-img-txt {
+  position: relative;
+  margin-top: -200px;
+  margin-bottom: 100px;
+  display: inline;
+}
+.button {
+  font-size: 12px;
+  background-color: #eb0000;
+  font-family: Poppins, sans-serif;
+  height: 30px;
+  margin-left: 25px;
+  justify-content: space-around;
+}
+.by-txt {
+  display: inline;
+  font-size: 20px;
+}
+.author {
+  display: inline-flexbox;
+  font-size: 30px;
+  justify-content: left;
+  margin-top: 5px;
+}
+.img-txt {
+  font-size: 48px;
+  justify-content: space-around;
+}
+.three-headlines {
+  padding-left: 15px;
+}
+.img-L {
+  height: 250px;
+  width: 350px;
+  object-fit: contain;
+  align-items: center;
+}
+
+/* .ad-1 {
+  height: 100px;
+  justify-content: center;
+}
+.ad-2 {
+  height: 100px;
+  margin-bottom: 10px;
+}
+.cta-box {
+  position: absolute;
+  top: 0;
+} */
