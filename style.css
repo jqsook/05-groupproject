@@ -16,6 +16,7 @@
 body {
   background-color: whitesmoke;
   border: 0;
+  overflow-x: hidden;
 }
 .top-img {
   border: 0;
